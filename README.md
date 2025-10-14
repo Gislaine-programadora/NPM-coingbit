@@ -27,8 +27,7 @@ cd my-crypto-dashboard
 npm install
 npm start
 
-<a href="https://raw.githubusercontent.com/Gislaine-programadora/coingbit-dev/main/public/npm-coingbit.png">
-  <img src="https://raw.githubusercontent.com/Gislaine-programadora/coingbit-dev/main/public/npm-coingbit.png" alt="Coingbit npm" width="150"/>
+![Coingbit npm](https://raw.githubusercontent.com/Gislaine-programadora/coingbit-dev/main/public/npm-coingbit.png)
 ```
 
 ## Features
