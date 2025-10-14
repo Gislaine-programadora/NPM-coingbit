@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinGBit - Crypto Dashboard</title>
+    
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.3.0/dist/web3.min.js"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    
+    <script>const ChartJS = window.Chart;</script>
+
+    <style type="text/tailwindcss">
+    :root {
+        --coingbit-primary: #1e40af;
+        --coingbit-secondary: #1e293b;
+        --coingbit-accent: #3b82f6;
+        --coingbit-success: #22c55e;
+        --coingbit-danger: #ef4444;
+        --coingbit-warning: #f59e0b;
+        --coingbit-dark: #0f172a;
+        --coingbit-light: #f8fafc;
+    }
+
+    body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background: linear-gradient(135deg, var(--coingbit-dark) 0%, var(--coingbit-secondary) 100%);
+        color: white;
+    }
+
+    .coingbit-card {
+        @apply bg-slate-800/50 backdrop-blur-sm rounded-xl border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10;
+    }
+
+    .coingbit-btn-primary {
+        @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200;
+    }
+
+    .metamask-connect {
+        @apply cursor-pointer hover:scale-105 transition-transform duration-200;
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/CryptoGrid.js"></script>
+    <script type="text/babel" src="components/ChartPanel.js"></script>
+    <script type="text/babel" src="components/MetaMaskConnect.js"></script>
+    <script type="text/babel" src="services/PriceService.js"></script>
+    <script type="text/babel" src="services/MetaMaskService.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "coingbit-project",
+  "version": "1.0.0",
+  "description": "CoinGBit cryptocurrency dashboard project",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8080 || npx serve .",
+    "dev": "live-server .",
+    "build": "echo 'Production ready - no build required'"
+  },
+  "dependencies": {
+    "coingbit": "^1.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}

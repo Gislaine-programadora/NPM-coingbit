@@ -1,0 +1,35 @@
+{
+  "bot": {
+    "name": "Bot BNB Trading",
+    "version": "2.0.0",
+    "description": "Sistema de trading automatizado para BNB"
+  },
+  "trading": {
+    "symbol": "BNBUSDT",
+    "takeProfit": 30,
+    "stopLoss": 10,
+    "monitoringInterval": 5000,
+    "defaultTradeAmount": 5
+  },
+  "binance": {
+    "baseUrl": "https://api.binance.com",
+    "testnet": false,
+    "timeout": 10000
+  },
+  "wallet": {
+    "network": "BSC",
+    "rpcUrl": "https://bsc-dataseed.binance.org/",
+    "gasLimit": 300000,
+    "gasPrice": "20000000000"
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "pt-BR",
+    "updateInterval": 3000
+  },
+  "security": {
+    "encryptKeys": true,
+    "logLevel": "info",
+    "maxRetries": 3
+  }
+}

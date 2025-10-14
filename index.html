@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CryptoTrader Pro - Advanced Trading Platform</title>
+    <meta name="description" content="Professional cryptocurrency trading platform with advanced charts and real-time market data">
+    <meta name="keywords" content="crypto trading, bitcoin, ethereum, trading platform, charts, portfolio">
+    <meta property="og:title" content="CryptoTrader Pro - Advanced Trading Platform">
+    <meta property="og:description" content="Professional cryptocurrency trading platform with advanced charts and real-time market data">
+    <meta name="twitter:title" content="CryptoTrader Pro - Advanced Trading Platform">
+    <meta name="twitter:description" content="Professional cryptocurrency trading platform with advanced charts and real-time market data">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    
+    <script>
+    const ChartJS = window.Chart;
+    </script>
+
+    <style type="text/tailwindcss">
+    :root {
+        --primary-bg: #0d1421;
+        --secondary-bg: #1a2332;
+        --card-bg: #253649;
+        --accent-blue: #3b82f6;
+        --accent-green: #22c55e;
+        --accent-red: #ef4444;
+        --accent-yellow: #f59e0b;
+        --text-primary: #ffffff;
+        --text-secondary: #94a3b8;
+        --border-color: #334155;
+        --hover-bg: #2d3748;
+    }
+
+    body {
+        background: linear-gradient(135deg, var(--primary-bg) 0%, #1e293b 100%);
+        color: var(--text-primary);
+        font-family: 'Inter', system-ui, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+
+    .crypto-card {
+        @apply bg-[var(--card-bg)] rounded-xl p-6 border border-[var(--border-color)] hover:border-[var(--accent-blue)] transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20;
+    }
+
+    .price-change-positive {
+        @apply text-[var(--accent-green)] bg-green-500/10 px-2 py-1 rounded-full text-sm font-semibold;
+    }
+
+    .price-change-negative {
+        @apply text-[var(--accent-red)] bg-red-500/10 px-2 py-1 rounded-full text-sm font-semibold;
+    }
+
+    .chart-mini {
+        @apply h-12 w-full opacity-60;
+    }
+
+    .glow-effect {
+        @apply shadow-lg shadow-blue-500/25 border-blue-400/50;
+    }
+
+    @keyframes pulse-glow {
+        0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+        50% { box-shadow: 0 0 30px rgba(59, 130, 246, 0.6); }
+    }
+
+    .pulse-glow {
+        animation: pulse-glow 2s ease-in-out infinite;
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/CryptoCard.js"></script>
+    <script type="text/babel" src="components/MarketOverview.js"></script>
+    <script type="text/babel" src="components/TradingPanel.js"></script>
+    <script type="text/babel" src="components/PriceChart.js"></script>
+    <script type="text/babel" src="utils/priceService.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

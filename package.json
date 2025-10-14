@@ -1,0 +1,58 @@
+{
+  "name": "coingbit",
+  "version": "1.0.0",
+  "description": "Comprehensive cryptocurrency dashboard with real-time charts, live quotes, and MetaMask integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "install": "node scripts/install.js",
+    "postinstall": "node scripts/postinstall.js",
+    "create-project": "node scripts/create-project.js"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "blockchain",
+    "trading",
+    "metamask",
+    "charts",
+    "real-time",
+    "crypto-dashboard",
+    "defi"
+  ],
+  "author": "CoinGBit Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coingbit/coingbit-package.git"
+  },
+  "homepage": "https://coingbit.com",
+  "bugs": {
+    "url": "https://github.com/coingbit/coingbit-package/issues"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^5.6.2",
+    "chart.js": "^4.4.9",
+    "web3": "^4.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "bin": {
+    "coingbit": "./bin/coingbit.js"
+  },
+  "files": [
+    "dist/",
+    "templates/",
+    "scripts/",
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
