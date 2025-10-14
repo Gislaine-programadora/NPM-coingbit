@@ -26,6 +26,9 @@ npx coingbit my-crypto-dashboard
 cd my-crypto-dashboard
 npm install
 npm start
+
+<a href="https://raw.githubusercontent.com/Gislaine-programadora/coingbit-dev/main/public/npm-coingbit.png">
+  <img src="https://raw.githubusercontent.com/Gislaine-programadora/coingbit-dev/main/public/npm-coingbit.png" alt="Coingbit npm" width="150"/>
 ```
 
 ## Features
@@ -120,6 +123,8 @@ To contribute to CoinGBit:
 3. Make your changes
 4. Test with: `npm run dev`
 5. Build with: `npm run build`
+
+📦 [Veja no npm](https://www.npmjs.com/package/coingbit)
 
 ## CLI Usage
 

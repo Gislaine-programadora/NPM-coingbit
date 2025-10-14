@@ -1,6 +1,6 @@
 {
   "name": "coingbit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Comprehensive cryptocurrency dashboard with real-time charts, live quotes, and MetaMask integration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
