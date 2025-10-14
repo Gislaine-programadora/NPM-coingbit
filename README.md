@@ -1,4 +1,4 @@
-# CoinGBit 🚀
+# CoinGBit 🚀  Pacote npm 📦 "npx coingbit my-crypto-dashboard"
 
 ![npm version](https://img.shields.io/npm/v/coingbit)
 ![license](https://img.shields.io/github/license/coingbit/coingbit-package)
@@ -27,7 +27,11 @@ cd my-crypto-dashboard
 npm install
 npm start
 
-![Coingbit npm](https://raw.githubusercontent.com/Gislaine-programadora/coingbit-dev/main/public/npm-coingbit.png)
+<p align="center">
+  <a href="https://www.npmjs.com/package/coingbit">
+    <img src="https://copilot.microsoft.com/th/id/BCO.b58b8a31-cce1-4c14-add7-77688d5c46a7.png" alt="Coingbit npm badge" width="200"/>
+  </a>
+</p>
 ```
 
 ## Features
