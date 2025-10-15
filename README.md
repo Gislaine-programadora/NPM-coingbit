@@ -18,7 +18,7 @@ Professional cryptocurrency dashboard package with real-time charts, live quotes
 ## Installation
 
 ```bash
-npm install coingbit
+npx coingbit my-crypto-dashboard
 ```
 
 ## Quick Start
@@ -30,6 +30,10 @@ npx coingbit my-crypto-dashboard
 cd my-crypto-dashboard
 npm install
 npm start
+
+```bash
+npm install coingbit
+```
 
 
 
