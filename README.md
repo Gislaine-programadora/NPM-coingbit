@@ -11,6 +11,10 @@ Professional cryptocurrency dashboard package with real-time charts, live quotes
 ![license](https://img.shields.io/github/license/coingbit/coingbit-package)
 ![downloads](https://img.shields.io/npm/dt/coingbit)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gislaine-programadora/NPM-coingbit/main/public/npm-coingbit.png" alt="Coingbit npm badge" width="200"/>
+</p>
+
 ## Installation
 
 ```bash
@@ -26,11 +30,6 @@ npx coingbit my-crypto-dashboard
 cd my-crypto-dashboard
 npm install
 npm start
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Gislaine-programadora/NPM-coingbit/main/public/npm-coingbit.png" alt="Coingbit npm badge" width="200"/>
-</p>
 
 
 
