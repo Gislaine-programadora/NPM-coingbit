@@ -29,8 +29,8 @@ npm start
 
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/coingbit">
-    <img src="https://raw.githubusercontent.com/Gislaine-programadora/coingbit/main/public/npm-coingbit.png" 
+  <a href="https://www.npmjs.com/package/NPM-coingbit">
+    <img src="https://raw.githubusercontent.com/Gislaine-programadora/NPM-coingbit/main/public/npm-coingbit.png" 
          alt="Coingbit npm" width="200"/>
   </a>
 </p>
