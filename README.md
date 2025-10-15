@@ -28,9 +28,10 @@ npm install
 npm start
 
 
-<a href="https://raw.githubusercontent.com/Gislaine-programadora/NPM-coingbit/main/public/npm-coingbit.png">
+<p align="center">
   <img src="https://raw.githubusercontent.com/Gislaine-programadora/NPM-coingbit/main/public/npm-coingbit.png" alt="Coingbit npm badge" width="200"/>
-</a>
+</p>
+
 
 
 ```
